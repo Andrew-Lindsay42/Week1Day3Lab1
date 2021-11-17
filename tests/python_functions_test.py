@@ -95,10 +95,11 @@ class TestPythonFunctionPractice(unittest.TestCase):
 
 
   #Given a value in farenheit, convert this into celsius.
-  @unittest.skip("delete this line to run the test")
+#   @unittest.skip("delete this line to run the test")
   def test_fahrenheit_to_celsius(self):
-    #add test code here
-    pass
+      f_to_c = farenheit_to_celsius(32)
+      self.assertEqual(0, f_to_c)
+
 
 
 if __name__ == '__main__':

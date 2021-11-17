@@ -36,3 +36,5 @@ def volume_of_cube(num1):
 def reverse_string(string1):
     return string1 [::-1]
 
+def farenheit_to_celsius(num1):
+    return (num1 - 32) * 5 / 9
